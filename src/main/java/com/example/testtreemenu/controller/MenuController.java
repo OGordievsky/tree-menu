@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
 @Controller
 public class MenuController {
     private MenuService service;
@@ -19,5 +18,4 @@ public class MenuController {
         model.addAttribute("rootMenuList", service.getMenuTree());
         return "index";
     }
-
 }

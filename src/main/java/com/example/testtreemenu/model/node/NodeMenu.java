@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NodeMenu {
-    private Long id;
-    private Long parent;
+    private Integer id;
+    private Integer parent;
     private List<NodeMenu> children;
     private String name;
 
@@ -18,19 +18,19 @@ public class NodeMenu {
         this.name = menu.getName();
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Long getParent() {
+    public Integer getParent() {
         return parent;
     }
 
-    public void setParent(Long parent) {
+    public void setParent(Integer parent) {
         this.parent = parent;
     }
 

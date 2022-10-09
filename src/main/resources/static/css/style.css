@@ -1,0 +1,46 @@
+:root {
+    --adc-blue: #003070
+}
+
+body {
+    background-color: white;
+    color: var(--adc-blue);
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+}
+
+body section h1 {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-entry {
+    color: var(--adc-blue);
+}
+
+.arrow {
+    cursor: pointer;
+    user-select: none;
+}
+
+.arrow::before {
+    content: "\25B6";
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 8px;
+}
+
+.arrow-down::before {
+    transform: rotate(90deg);
+}
+
+.nested {
+    display: none;
+}
+
+.active {
+    display: block;
+}

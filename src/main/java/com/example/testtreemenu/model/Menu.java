@@ -1,35 +1,43 @@
 package com.example.testtreemenu.model;
 
-import java.util.List;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "test_categories")
 public class Menu {
-    private Long id;
-    private Long pid;
+    @Id
+    private Integer id;
+    @Column(name = "parent_id")
+    private Integer pid;
+    @Column
     private String name;
 
 
     public Menu(){
     }
 
-    public Menu(String name, Long id, Long pid) {
+    public Menu(String name, Integer id, Integer pid) {
         this.id = id;
         this.pid = pid;
         this.name = name;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Long getPid() {
+    public Integer getPid() {
         return pid;
     }
 
-    public void setPid(Long pid) {
+    public void setPid(Integer pid) {
         this.pid = pid;
     }
 
