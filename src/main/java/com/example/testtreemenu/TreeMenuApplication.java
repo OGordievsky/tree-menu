@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestTreeMenuApplication {
+public class TreeMenuApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestTreeMenuApplication.class, args);
+		SpringApplication.run(TreeMenuApplication.class, args);
 	}
 
 }

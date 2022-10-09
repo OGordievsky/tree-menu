@@ -1,0 +1,8 @@
+<html>
+<ul class="nested" th:fragment="menu (menuItemsList)">
+    <li th:fragment="nestedMenu (menuItemsList)" th:each="menuItem:${menuItemsList}">
+        <span class="caret" th:text="${menuItem.name}"></span>
+        <section th:replace="menuFragment :: menu (menuItemsList=${menuItem.children})"></section>
+    </li>
+</ul>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --adc-blue: #003070
+        }
+
+        body {
+            background-color: white;
+            color: var(--adc-blue);
+            font-family: "Helvetica Neue";
+        }
+
+        body section h1 {
+            margin-left: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .menu-entry {
+            color: var(--adc-blue);
+        }
+
+        .caret {
+            cursor: pointer;
+            -webkit-user-select: none; /* Safari 3.1+ */
+            -moz-user-select: none; /* Firefox 2+ */
+            -ms-user-select: none; /* IE 10+ */
+            user-select: none;
+        }
+
+        .caret::before {
+            content: "\25B6";
+            display: inline-block;
+            margin-right: 6px;
+            margin-top: 8px;
+        }
+
+        .caret-down::before {
+            -ms-transform: rotate(90deg); /* IE 9 */
+            -webkit-transform: rotate(90deg); /* Safari */
+        ' transform: rotate(90 deg);
+        }
+
+        .nested {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+    <title>Tree menu</title>
+<!--    <link rel="stylesheet" type="text/css" href="../templates/css/style.css" media="screen"/>-->
+</head>
+<body>
+<section>
+    <ul id="myUL">
+        <li th:replace="menuFragment :: nestedMenu (menuItemsList=${rootMenuList})"></li>
+    </ul>
+    <script>
+        var toggler = document.getElementsByClassName("caret");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function () {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-down");
+            });
+        }
+    </script>
+</section>
+</body>
+</html>
