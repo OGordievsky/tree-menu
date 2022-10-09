@@ -6,8 +6,8 @@
 <br/>
 <br/>Project have next features:
 
-* __Kotlin__ version
-* __Java__ version
+* <a href="https://github.com/OGordievsky/tree-menu/tree/kotlin">Kotlin</a> version
+* <a href="https://github.com/OGordievsky/tree-menu/tree/java">Java</a> version
 * MVC application model
 * Tree menu in Thymeleaf
 * Recurse with Thymeleaf fragment
@@ -23,8 +23,8 @@
 <br/>And have <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">installed Git</a>
 <br/>
 <br/><b>How to start this program?</b>
- 
-* Start from console:
+<ul>
+<li> Start from console:</li>
 <br/>1. Type in your console next commands:
 <br/><code>mkdir c:\projects\ShowTreeMenu </code>
 <br/><code>cd c:\projects\ShowTreeMenu </code>
@@ -33,7 +33,7 @@
 <br/><code>java -Dfile.encoding=utf-8 -jar tree-menu-0.0.3.jar</code>
 <br/>
 <br/>
-* Start from IntelliJIDEA or another Java IDE
+<li> Start from IntelliJIDEA or another Java IDE </li> 
 <br/>1. Walk into yours "projects" directory
 <br/>2. In project directory type next console command: <code>git clone https://github.com/OGordievsky/tree-menu </code>
 <br/>3. Open you favorite IDE
@@ -42,10 +42,11 @@
 <br/>6. Right click on TreeMenuApplication.java select [Run] (green "Play" triangle)
 <br/>
 <br/>
-* Simple way to start from OS
-<br/>1. Click  <a href="https://github.com/OGordievsky/tree-menu/raw/java/releses/Application.rar">"Download"</a> after that the start upload archive from:
+<li> Simple way to start from OS </li> 
+<br/>1. Click  <a href="https://github.com/OGordievsky/tree-menu/raw/java/releases/Application.zip">"Download"</a> after that the start upload archive from:
 <br/>https://github.com/OGordievsky/ShowFormattedText/tree/master/compiled
 <br/>2. Unpack Application.zip into your directory.
 <br/>3. Double-click on RunPort8080.bat
 <br/>
+</ul>
 <br/>Enjoy to use
