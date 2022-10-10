@@ -1,31 +1,31 @@
 # ShowTreeMenu application
 <br/>
-<br/>This application shows in the assembled by Thymeleaf HTML page 
-<br/>all categories from the database.
-<br/>By the local address: <a href="http://localhost:8080">localhost:8080</a> 
+<br/>Приложение выводит на собранную через Thymeleaf HTML страницу 
+<br/>со всеми категориями из базы данных.
+<br/>По локальному адресу: <a href="http://localhost:8080">localhost:8080</a> 
 <br/>
-<br/>Project have next features:
+<br/>Проект реализует следующие особенности:
 
-* <a href="https://github.com/OGordievsky/tree-menu/tree/kotlin">Kotlin</a> version
-* <a href="https://github.com/OGordievsky/tree-menu/tree/java">Java</a> version
-* MVC application model
-* Tree menu in Thymeleaf
-* Recurse with Thymeleaf fragment
+* <a href="https://github.com/OGordievsky/tree-menu/tree/kotlin">Kotlin</a> версия
+* <a href="https://github.com/OGordievsky/tree-menu/tree/java">Java</a> версия
+* MVC структура
+* Древовидное меню в Thymeleaf
+* Использование рекурсии Thymeleaf при помощи фрагментов
 
-<br/><b>Warning!</b>
-<br/>Fix vulnerability into pom.xml dependencies:
+<br/><b>Внимание!</b>
+<br/>Обнаружены и исправлены уязвимости в pom.xml зависимостях:
 <br/>jackson-databind
 <br/>snakeyaml
 
 
-<br/>Before start this project:
-<br/>Ensure that your PC have <a href="https://www.oracle.com/java/technologies/javase/17-0-4-relnotes.html">installed Java 17</a>
-<br/>And have <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">installed Git</a>
+<br/>Перед тем как запустить проект:
+<br/>Убедитесь что на компьютере <a href="https://www.oracle.com/java/technologies/javase/17-0-4-relnotes.html">установлена Java 17</a>
+<br/>И <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">установлен Git</a>
 <br/>
-<br/><b>How to start this program?</b>
+<br/><b>Как запустить приложение?</b>
 <ul>
-<li> Start from console:</li>
-<br/>1. Type in your console next commands:
+<li> Запуск через консоль:</li>
+<br/>1. Последовательно введите в консоли команды:
 <br/><code>mkdir c:\projects\ShowTreeMenu </code>
 <br/><code>cd c:\projects\ShowTreeMenu </code>
 <br/><code>git clone https://github.com/OGordievsky/tree-menu </code>
@@ -33,20 +33,19 @@
 <br/><code>java -Dfile.encoding=utf-8 -jar tree-menu-0.0.3.jar</code>
 <br/>
 <br/>
-<li> Start from IntelliJIDEA or another Java IDE </li> 
-<br/>1. Walk into yours "projects" directory
-<br/>2. In project directory type next console command: <code>git clone https://github.com/OGordievsky/tree-menu </code>
-<br/>3. Open you favorite IDE
-<br/>4. In yours IDE make next steps:<b> File -> Open -> :\projects\tree-menu</b>
-<br/>5. Find main class "TreeMenuApplication" into: \tree-menu\src\main\java\com\example\treemenu\TreeMenuApplication.java
-<br/>6. Right click on TreeMenuApplication.java select [Run] (green "Play" triangle)
+<li> Запуск из IntelliJIDEA или другой Java IDE </li> 
+<br/>1. Перейдите в свою директорию с проектами "projects"
+<br/>2. В этой директории введите консольную команду: <code>git clone https://github.com/OGordievsky/tree-menu </code>
+<br/>3. Откроюте любимую среду разработки
+<br/>4. И сделайте следующие шаги:<b> Файл -> Открыть -> :\projects\tree-menu</b>
+<br/>5. Найдите главный класс "TreeMenuApplication" into: \tree-menu\src\main\java\com\example\treemenu\TreeMenuApplication.java
+<br/>6. Нажмите правой кнопкой мыши по TreeMenuApplication.java выберите [Пуск] (зелёный "Play" треугольник)
 <br/>
 <br/>
-<li> Simple way to start from OS </li> 
-<br/>1. Click  <a href="https://github.com/OGordievsky/tree-menu/raw/java/releases/Application.zip">"Download"</a> after that the start upload archive from:
-<br/>https://github.com/OGordievsky/ShowFormattedText/tree/master/compiled
-<br/>2. Unpack Application.zip into your directory.
-<br/>3. Double-click on RunPort8080.bat
+<li> Простой запуск в ОС </li> 
+<br/>1. Нажмите ->  <a href="https://github.com/OGordievsky/tree-menu/raw/java/releases/Application.zip">"Загрузить"</a> после этого начнётся загрузка архива:
+<br/>2. Распакуйте Application.zip внутрь директории проекта.
+<br/>3. Двойной щелчок по RunPort8080.bat
 <br/>
 </ul>
-<br/>Enjoy to use
+<br/>Приятного использования
