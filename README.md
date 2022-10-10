@@ -44,7 +44,6 @@
 <br/>
 <li> Simple way to start from OS </li> 
 <br/>1. Click  <a href="https://github.com/OGordievsky/tree-menu/raw/java/releases/Application.zip">"Download"</a> after that the start upload archive from:
-<br/>https://github.com/OGordievsky/ShowFormattedText/tree/master/compiled
 <br/>2. Unpack Application.zip into your directory.
 <br/>3. Double-click on RunPort8080.bat
 <br/>
